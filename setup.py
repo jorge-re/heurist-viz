@@ -9,7 +9,21 @@ setup(
     name="heurist-viz",
     version="0.1.0",
     packages=find_packages(),  # This will find heurist_viz and all subpackages
-    include_package_data=True,
+    include_package_data=True,  # This will include files listed in MANIFEST.in
+    package_data={
+        'heurist_viz.ice': [
+            'ui/**/*',  # Include all files under ui
+            'routes/**/*',  # Include all files under routes
+            'ui/public/*',
+            'ui/styles/*',
+            'ui/components/*',
+            'ui/*.html',
+            'ui/*.tsx',
+            'ui/*.ts',
+            'ui/*.js',
+            'ui/*.json',
+        ],
+    },
     install_requires=[
         "click>=8.0.0",
         "openai>=1.0.0",
