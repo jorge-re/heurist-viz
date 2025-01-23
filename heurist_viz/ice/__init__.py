@@ -1,8 +1,8 @@
 import os
 import sys
 
-# Add the parent directory to PYTHONPATH so 'ice' imports work
-ice_dir = os.path.dirname(os.path.dirname(__file__))
+# Add the ice directory itself to PYTHONPATH so 'ice.*' imports work
+ice_dir = os.path.dirname(__file__)
 if ice_dir not in sys.path:
     sys.path.insert(0, ice_dir)
 
