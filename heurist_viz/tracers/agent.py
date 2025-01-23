@@ -1,10 +1,7 @@
 from typing import Any, Callable
 
-from ..ice.trace import TracedABC, trace
-
+from ..ice.trace import TracedABC
 from ..ice.environment import env
-
-from ..core import get_visualization_context
 
 class AgentTracer(TracedABC):
     """Tracer for agent operations."""
@@ -29,5 +26,7 @@ class AgentTracer(TracedABC):
             return result
             
         except Exception as e:
-            self._environment.print({"error": str(e)})
+            self._environment.print({
+                "error": str(e)
+            })
             raise 

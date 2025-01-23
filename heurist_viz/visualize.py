@@ -11,7 +11,6 @@ from .ice.trace import enable_trace, trace
 from .ice.environment import env
 from .ice.mode import Mode
 from .ice.recipe import FunctionBasedRecipe, recipe
-from .ice.trace import enable_trace, trace
 from merge_args import merge_args
 
 T = TypeVar('T', bound=Callable[..., Any])

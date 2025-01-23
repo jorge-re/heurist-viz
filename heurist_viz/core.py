@@ -3,7 +3,7 @@ from functools import wraps
 from inspect import iscoroutinefunction
 from typing import Any, Callable, TypeVar, cast
 
-from ice.trace import enable_trace, trace
+from .ice.trace import enable_trace, trace
 
 T = TypeVar('T', bound=Callable[..., Any])
 

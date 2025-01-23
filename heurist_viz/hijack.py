@@ -3,7 +3,6 @@ from typing import Any, Callable, Type
 
 import gorilla
 from .ice.trace import TracedABC
-
 from .tracers.agent import AgentTracer
 
 VISUALIZER_PATCH_ID = "agent-viz"
