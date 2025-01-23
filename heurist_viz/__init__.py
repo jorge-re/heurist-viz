@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.append(os.path.dirname(__file__))
+
 from .core import get_visualization_context
 from .hijack import hijack_method, get_original_method
 from .tracers.agent import AgentTracer
