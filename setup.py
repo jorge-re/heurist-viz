@@ -24,7 +24,7 @@ setup(
         "diskcache>=5.4.0",
         "aiohttp>=3.8.0",
         "pydantic<2",
-        "pydantic_settings>=2.0.0",
+        #"pydantic_settings>=2.0.0",
         "typing-extensions>=4.0.0",
         "numpy>=1.20.0",
         "torch>=1.8.0",
