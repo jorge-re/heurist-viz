@@ -8,7 +8,8 @@ long_description = (this_directory / "README.md").read_text()
 setup(
     name="heurist-viz",
     version="0.1.0",
-    packages=find_packages(),
+    py_modules=['visualize', 'core', 'hijack'],  # Root-level Python modules
+    packages=['ice', 'tracers'],  # Explicit package list
     include_package_data=True,
     install_requires=[
         "click>=8.0.0",
