@@ -36,13 +36,13 @@ def ensure_server_running():
 
     log.info("Starting server, set OUGHT_ICE_AUTO_SERVER=0 to disable.")
     subprocess.Popen(
-        [sys.executable, "-m", "ice.server", "start"],
+        [sys.executable, "-m", "heurist_viz.ice.server", "start"],
         env=os.environ,
         stdout=subprocess.DEVNULL,
         stderr=subprocess.DEVNULL,
     )
     wait_until_server_running()
-    log.info("Server started! Run `python -m ice.server stop` to stop it.")
+    log.info("Server started! Run `python -m heurist_viz.ice.server stop` to stop it.")
 
 
 def stop():
