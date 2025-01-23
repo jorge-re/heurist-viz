@@ -1,2 +1,25 @@
 include LICENSE
-recursive-include ice/templates * 
+include README.md
+include MANIFEST.in
+include ice/py.typed
+
+# UI files
+recursive-include ice/ui/public *
+recursive-include ice/ui/styles *
+recursive-include ice/ui/components *
+include ice/ui/index.html
+include ice/ui/main.tsx
+include ice/ui/vite.config.ts
+include ice/ui/tailwind.config.js
+include ice/ui/postcss.config.js
+include ice/ui/tsconfig.json
+include ice/ui/tsconfig.node.json
+include ice/ui/package.json
+include ice/ui/vercel.json
+
+# Exclude unnecessary files
+global-exclude *.pyc
+global-exclude __pycache__
+global-exclude *.pyo
+global-exclude .DS_Store
+global-exclude .git* 
