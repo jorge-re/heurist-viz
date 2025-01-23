@@ -1,0 +1,161 @@
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background-color: #1a1a1a !important;
+  color: #ffffff !important;
+}
+
+/* Global container overrides */
+body,
+#root,
+#__next,
+[data-rk],
+.chakra-portal,
+.chakra-container,
+.chakra-stack,
+.chakra-wrap,
+.chakra-box {
+  background-color: #1a1a1a !important;
+  color: #ffffff !important;
+}
+
+/* Input overrides */
+.chakra-input,
+.chakra-select,
+.chakra-textarea {
+  background-color: #2d2d2d !important;
+  border-color: #404040 !important;
+  color: #ffffff !important;
+}
+
+/* Button overrides */
+.chakra-button {
+  background-color: #2d2d2d !important;
+  color: #ffffff !important;
+}
+
+/* Tab overrides */
+.chakra-tabs {
+  color: #ffffff !important;
+}
+
+.chakra-tabs__tab {
+  color: #a0aec0 !important;
+}
+
+.chakra-tabs__tab[aria-selected="true"] {
+  color: #ffffff !important;
+}
+
+/* Alert overrides */
+.chakra-alert {
+  background-color: #2d2d2d !important;
+  color: #ffffff !important;
+}
+
+/* Tag overrides */
+.chakra-tag {
+  background-color: #2d2d2d !important;
+  color: #ffffff !important;
+}
+
+/* Side panel and toolbar overrides */
+.chakra-stack,
+[role="complementary"],
+[role="navigation"],
+.allotment-module_splitView__L-yRc {
+  background-color: #1a1a1a !important;
+  border-color: #404040 !important;
+  color: #ffffff !important;
+}
+
+/* Allotment split pane specific overrides */
+.allotment-module_splitView__L-yRc > div {
+  background-color: #1a1a1a !important;
+}
+
+.allotment-module_splitView__L-yRc .allotment-module_separator__UEKxy {
+  background-color: #404040 !important;
+}
+
+/* Input/Output panel overrides */
+[role="complementary"] > div,
+[role="complementary"] pre,
+[role="complementary"] code {
+  background-color: #2d2d2d !important;
+  color: #ffffff !important;
+}
+
+/* Syntax highlighter overrides */
+.react-syntax-highlighter-line-number,
+.react-syntax-highlighter-line {
+  background-color: #2d2d2d !important;
+}
+
+/* Menu and popover overrides */
+.chakra-menu__menu-list,
+.chakra-popover__content,
+.chakra-popover__body {
+  background-color: #2d2d2d !important;
+  border-color: #404040 !important;
+  color: #ffffff !important;
+}
+
+.chakra-menu__menu-item:hover {
+  background-color: #404040 !important;
+}
+
+/* Side panel */
+aside, 
+nav,
+.chakra-modal__content,
+[role="dialog"],
+[role="complementary"],
+[role="navigation"] {
+  background-color: #2d2d2d !important;
+  border-color: #404040 !important;
+  color: #ffffff !important;
+}
+
+/* Menu items */
+.chakra-menu__menu-list {
+  background-color: #2d2d2d !important;
+  border-color: #404040 !important;
+}
+
+.chakra-menu__menu-item {
+  color: #ffffff !important;
+}
+
+/* Popover content */
+.chakra-popover__header,
+.chakra-popover__footer {
+  background-color: #2d2d2d !important;
+  border-color: #404040 !important;
+  color: #ffffff !important;
+}
+
+/* Ensure all portals and overlays are dark */
+.chakra-portal > *,
+[role="presentation"] > * {
+  background-color: #2d2d2d !important;
+  color: #ffffff !important;
+} 
+
+.bg-gray-50 {
+  background-color: #1a1a1a !important;
+}
+
+.bg-white {
+  background-color: #1a1a1a  !important;
+}
+
+.text-slate-700 {
+  color: #ffffff !important;
+}
+
+.text-gray-800 {
+  color: #ffffff !important;
+}
