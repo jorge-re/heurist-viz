@@ -1,21 +1,21 @@
 include LICENSE
 include README.md
 include MANIFEST.in
-include ice/py.typed
+include heurist_viz/py.typed
 
 # UI files
-recursive-include ice/ui/public *
-recursive-include ice/ui/styles *
-recursive-include ice/ui/components *
-include ice/ui/index.html
-include ice/ui/main.tsx
-include ice/ui/vite.config.ts
-include ice/ui/tailwind.config.js
-include ice/ui/postcss.config.js
-include ice/ui/tsconfig.json
-include ice/ui/tsconfig.node.json
-include ice/ui/package.json
-include ice/ui/vercel.json
+recursive-include heurist_viz/ice/ui/public *
+recursive-include heurist_viz/ice/ui/styles *
+recursive-include heurist_viz/ice/ui/components *
+include heurist_viz/ice/ui/index.html
+include heurist_viz/ice/ui/main.tsx
+include heurist_viz/ice/ui/vite.config.ts
+include heurist_viz/ice/ui/tailwind.config.js
+include heurist_viz/ice/ui/postcss.config.js
+include heurist_viz/ice/ui/tsconfig.json
+include heurist_viz/ice/ui/tsconfig.node.json
+include heurist_viz/ice/ui/package.json
+include heurist_viz/ice/ui/vercel.json
 
 # Exclude unnecessary files
 global-exclude *.pyc

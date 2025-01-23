@@ -24,6 +24,7 @@ setup(
         "diskcache>=5.4.0",
         "aiohttp>=3.8.0",
         "pydantic<2",
+        "pydantic_settings>=2.0.0",
         "typing-extensions>=4.0.0",
         "numpy>=1.20.0",
         "torch>=1.8.0",
@@ -49,6 +50,7 @@ setup(
         "dataclasses-json>=0.5.7",
         "types-requests>=2.28.0",
         "merge-args>=0.1.4",
+        "gorilla>=0.4.0",
         "faker>=18.0.0",
         "matplotlib>=3.7.0",
         "nltk>=3.8.0",
@@ -78,7 +80,6 @@ setup(
             "pre-commit",
             "pylint",
             "pytest-mock",
-            "gorilla>=0.4.0",
         ]
     },
     author="Jorge RE",
